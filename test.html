@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- src="https://tfnsw-heavy-calculator-develop.betterfleet.com/" -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.6/iframeResizer.min.js"></script>
+  </head>
+
+  <body>
+    <style>
+      iframe {
+        width: 1px;
+        min-width: 100%;
+      }
+    </style>
+
+    <iframe
+      id="myIframe"
+      src="http://localhost:8080/"
+      frameborder="0"
+      marginwidth="0"
+      marginheight="0"
+      width="100%"
+      scrolling="no"
+    ></iframe>
+
+    <script>
+      iFrameResize({ log: true }, "#myIframe");
+    </script>
+  </body>
+</html>
