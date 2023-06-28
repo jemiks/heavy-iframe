@@ -186,6 +186,7 @@
       let observer = new MutationObserver(function (mutationsList) {
         iframe.contentWindow.scrollTo(0, elementTop);
       });
+      
 
       observer.observe(iframe, {
         attributes: true,
